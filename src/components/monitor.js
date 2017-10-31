@@ -7,7 +7,7 @@ const Monitor = (props) => {
                 This is the time of the values: {props.date}
             </p>
             <div>
-            { props.parts ? props.parts.map(part => partsRender(part)) : ''}
+                {props.parts ? props.parts.map(part => partsRender(part)) : ''}
             </div>
         </div>
     );
@@ -15,8 +15,23 @@ const Monitor = (props) => {
 
 const partsRender = part => {
     return (
-        <div className="card-deck">
-           Part: {part.name}
+        <div>
+            <p className="lead">Part: {part.name}</p>
+            <div className="card-columns">
+                {part.features.map(feat => featuresRender(feat))}
+            </div>
+        </div>
+    );
+}
+
+const featuresRender = feat => {
+    return (
+        <div className="card">
+            <div className="card-inverse card-primary">
+                <p className="card-title text-white">
+                    {feat.name}
+                </p>
+            </div>
         </div>
     );
 }
