@@ -26,7 +26,107 @@ const realTimer = () =>({
             name: 'Diameter',
             dev: Math.floor(Math.random()*10),
             devot:  Math.floor(Math.random()*100)
-          }
+          },
+          {
+            name: 'Xa',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Ya',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Za',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Diameter a',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Xb',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Yb',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Zb',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Diameter b',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Xc',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Yc',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Zc',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Diameter c',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'X d',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Y d',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Z d',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Diameter d',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'X e',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Y f',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Z f',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Diameter f',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
         ], },
         { name: 'Marcelino', type: 'Seam', id: '1AZ', controls:[
           {

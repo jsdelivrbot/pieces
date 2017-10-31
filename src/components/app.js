@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import { subscribeToTimer } from '../api';
+import Monitor from './monitor';
 
 export default class App extends Component {
   constructor(props) {
     super(props);
 
+    this.state = {
+      timestamp: ''
+    }
     subscribeToTimer((err, timestamp) => this.setState({ 
       timestamp 
     }));
   }
-  state = {
-    timestamp: ''
-  };
   render() {
+    const timestamp = this.state.timestamp;
     return (
-      <div className="App">
-        <p className="App-intro">
-        This is the time of the values: {this.state.timestamp.date}
-        </p>
+      <div className="m-t-2">
+        {Monitor(timestamp)}
       </div>
     );
   }

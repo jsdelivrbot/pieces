@@ -4,6 +4,6 @@ const  socket = openSocket('http://localhost:3090');
 
 function subscribeToTimer(cb) {
   socket.on('timer', timestamp => cb(null, timestamp));
-  socket.emit('subscribeToTimer', 1000);
+  socket.emit('subscribeToTimer', 2000);
 }
 export { subscribeToTimer };
