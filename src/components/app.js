@@ -10,13 +10,13 @@ export default class App extends Component {
     }));
   }
   state = {
-    timestamp: 'no timestamp yet'
+    timestamp: ''
   };
   render() {
     return (
       <div className="App">
         <p className="App-intro">
-        This is the time of the values: {this.state.timestamp}
+        This is the time of the values: {this.state.timestamp.date}
         </p>
       </div>
     );
