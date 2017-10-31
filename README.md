@@ -4,6 +4,8 @@ Pieces is a Realtime data (aproach) app build with React-Redux and Socket.io
 
 ## After Cloning
 
+Open a terminal type the followin commands.
+
 ## To install
 
 ```
@@ -21,5 +23,7 @@ And in other terminal window run this other scipt to run the Aplication
 ```
 > npm start
 ```
+
+Both scripts (dev and start) will catch the terminal with a continius proccess, watching any change in the code, so if you need to run other comands like git actions or any other I suggest you to open another terminal.
 
 Once we get this done we can see our app in a browser in ```localhost:8080```
