@@ -16,7 +16,7 @@ export default class App extends Component {
   render() {
     const timestamp = this.state.timestamp;
     return (
-      <div className="m-t-2">
+      <div className="m-t-1">
         {Monitor(timestamp)}
       </div>
     );

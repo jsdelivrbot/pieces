@@ -1,0 +1,32 @@
+table{
+    font-size: 11px;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}
+
+th:first-child{
+    text-align: left;
+}
+
+th{
+    text-align: center;
+}
+
+.card-title{
+    padding: 0.5em;
+}
+
+.feat{
+    break-inside: avoid;
+    background: #fafafa;
+    margin-bottom: 1em;
+}
+
+.card-columns{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+
+    column-fill: auto;
+}

@@ -236,6 +236,46 @@ const realTimer = () =>({
             name: 'Diameter',
             dev: Math.floor(Math.random()*10),
             devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Xa',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Ya',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Za',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Diameter A',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Xl',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Yy',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Zz top',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
+          },
+          {
+            name: 'Diameteeer! ',
+            dev: Math.floor(Math.random()*10),
+            devot:  Math.floor(Math.random()*100)
           }
         ], },
       ] 
