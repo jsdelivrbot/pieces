@@ -128,7 +128,7 @@ const realTimer = () =>({
             devot:  Math.floor(Math.random()*100)
           },
         ], },
-        { name: 'Marcelino', type: 'Seam', id: '1AZ', controls:[
+        { name: 'Marcelino', type: 'Seam', id: '2AZ', controls:[
           {
             name: 'X',
             dev: Math.floor(Math.random()*10),
@@ -150,7 +150,7 @@ const realTimer = () =>({
             devot:  Math.floor(Math.random()*100)
           }
         ], },
-        { name: 'Quini', type: 'Seam', id: '1AZ', controls:[
+        { name: 'Quini', type: 'Seam', id: '3AZ', controls:[
           {
             name: 'X',
             dev: Math.floor(Math.random()*10),
@@ -172,7 +172,7 @@ const realTimer = () =>({
             devot:  Math.floor(Math.random()*100)
           }
         ], },
-        { name: 'Ablanedo', type: 'Seam', id: '1AZ', controls:[
+        { name: 'Ablanedo', type: 'Seam', id: '4AZ', controls:[
           {
             name: 'X',
             dev: Math.floor(Math.random()*10),
@@ -194,7 +194,7 @@ const realTimer = () =>({
             devot:  Math.floor(Math.random()*100)
           }
         ], },
-        { name: 'Abelardo', type: 'Seam', id: '1AZ', controls:[
+        { name: 'Abelardo', type: 'Seam', id: '5AZ', controls:[
           {
             name: 'X',
             dev: Math.floor(Math.random()*10),
@@ -216,7 +216,7 @@ const realTimer = () =>({
             devot:  Math.floor(Math.random()*100)
           }
         ], },
-        { name: 'Lucho', type: 'Seam', id: '1AZ', controls:[
+        { name: 'Lucho', type: 'Seam', id: '6AZ', controls:[
           {
             name: 'X',
             dev: Math.floor(Math.random()*10),
